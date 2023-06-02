@@ -39,7 +39,7 @@ restaurants = [
         description: "Un restaurant moderne et élégant, offrant une cuisine innovante avec une touche new-yorkaise. Classé trois étoiles au guide Michelin.",
         rating: 4.9
     }
-]
+] 
 
 restaurants.each do |restaurant|
     Restaurant.create!(restaurant)
